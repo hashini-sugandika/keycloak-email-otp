@@ -34,7 +34,6 @@ jobs:
         uses: SonarSource/sonarqube-scan-action@v6
         with:
           args: >
-            -Dsonar.organization=hashinisugandika
             -Dsonar.projectKey=keycloak-email-otp
             -Dsonar.host.url=https://sonarcloud.io
         env:
